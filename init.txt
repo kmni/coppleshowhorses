@@ -1,0 +1,9 @@
+https://dl.dropboxusercontent.com/u/558782/Copple%20Show%20Horses.zip
+
+This will be a responsive static site.
+
+The correct footer size is in copple-show-horses-website-design-home.psd.  This footer will be a normal-style footer (not fixed)
+
+copple-show-horses-website-design-profile.psd - The photos and thumbnails when clicked will open a gallery lightox.  If needed, we can design lightbox.  Also, clicking the video button will open in lightbox.
+
+We'll work on getting you the gallery page design (the one that's in the nav) sometime next week.
