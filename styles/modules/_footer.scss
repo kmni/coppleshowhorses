@@ -1,1 +1,46 @@
-.footer{}
+.footer{
+    height: 140px;
+    background: image-url("footer/bg.png") repeat-x 0 0;
+
+    a{
+        text-decoration: none;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+}
+
+// contact info at footer
+// ====================================
+
+.footer__info{
+    @include cf;
+    position: absolute;
+    left: 33px;
+    top: 22px;
+}
+
+.footer__info__logo{
+    width: 129px;
+    height: 54px;
+    float: left;
+}
+
+.footer__info__text{
+    float: left;
+    padding: 3px 0 0 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+// copyright
+// ====================================
+
+.footer__copyright{
+    position: absolute;
+    right: 15px;
+    top: 120px;
+    font-size: 11px;
+    color: #E8D3B6;
+    text-transform: uppercase;
+}

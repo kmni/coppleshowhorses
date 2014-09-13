@@ -53,3 +53,16 @@
         padding: 0 20px;
     }
 }
+
+// bottom (footer) menu
+// ====================================
+
+.menu--bottom{
+    position: absolute;
+    left: 490px;
+    top: 22px;
+
+    .menu__link{
+        padding: 0 10px;
+    }
+}
