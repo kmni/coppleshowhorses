@@ -6,10 +6,8 @@
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <link rel="shortcut icon" href="/favicon.png" />
 
-        <script src="/bower_components/jquery/dist/jquery.min.js"></script>
-        <script src="/scripts/custom.js"></script>
         <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="/styles/style.min.css" />
+        <link rel="stylesheet" href="styles/style.min.css" />
     </head>
 
 <body>
@@ -49,6 +47,17 @@
             <!-- ++++++++++++++++++++++++++ -->
 
             <div class="homepage__content is-first">
+                <div class="slider-wrapper">
+                    <div class="slider js-carousel">
+                        <ul class="slider__playlist">
+                            <li class="slider__playlist__item"><img src="images/slider/image1.jpg" /></li>
+                            <li class="slider__playlist__item"><img src="images/slider/image2.jpg" /></li>
+                            <li class="slider__playlist__item"><img src="images/slider/image3.jpg" /></li>
+                            <li class="slider__playlist__item"><img src="images/slider/image4.jpg" /></li>
+                        </ul>
+                    </div>  <!-- /slider -->
+                </div>  <!-- /slider-wrapper -->
+                <div class="slider-pager js-carousel-pager"></div>
             </div>
 
             <!-- ++++++++++++++++++++++++++ -->
@@ -99,6 +108,10 @@
             <p class="footer__copyright">&copy; Designed by <a href="http://www.arabhorse.com">ArabHorse.com</a></p>
         </div>
     </div>  <!-- /footer -->
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/jcarousel/dist/jquery.jcarousel.min.js"></script>
+    <script src="scripts/custom.js"></script>
 
 </body>
 </html>

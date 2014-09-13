@@ -1,0 +1,50 @@
+// slider
+// ====================================
+
+.slider-wrapper,
+.slider{
+    width: 439px;
+    height: 439px;
+}
+
+.slider-wrapper{
+    margin: 15px 0 10px 25px;
+}
+
+.slider{
+    position: relative;
+    overflow: hidden;
+}
+
+.slider__playlist{
+    height: 439px;
+    width: 20000em;
+    position: relative;
+    list-style: none;
+    left: 0;
+}
+
+.slider__playlist__item{
+    float: left;
+}
+
+// slider pager
+// ====================================
+
+.slider-pager{
+    text-align: center;
+}
+
+.slider-pager__item{
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    background: image-url("slider/pager-sprite.png") no-repeat 0 -11px;
+    text-indent: -999px;
+    overflow: hidden;
+    margin: 0 4px;
+
+    &.is-active{
+        background-position: 0 0;
+    }
+}

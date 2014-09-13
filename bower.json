@@ -19,6 +19,7 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "*"
+    "jquery": "*",
+    "jcarousel": "~0.3.1"
   }
 }
