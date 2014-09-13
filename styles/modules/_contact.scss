@@ -1,1 +1,32 @@
-.menu{}
+.contact{
+    @include cf;
+    position: absolute;
+    top: 0;
+    right: 15px;
+}
+
+.contact__item,
+.contact__link{
+    display: block;
+    float: left;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    height: 43px;
+    line-height: 43px;
+}
+
+.contact__item{
+    background: #F4E0BF;
+    border-right: 1px solid #E8D3B6;
+}
+
+.contact__link{
+    padding: 0 13px;
+    .is-icon &{
+        padding: 0 9px;
+    }
+    img{
+        margin-top: 12px;
+    }
+}
