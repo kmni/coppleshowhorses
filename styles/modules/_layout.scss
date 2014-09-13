@@ -24,6 +24,8 @@ body{
 .is-content{
     @include cf;
     width: 1020px;
+    margin: 0 auto;
+    text-align: left;
 }
 
 .is-disable{
