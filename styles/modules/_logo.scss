@@ -1,1 +1,22 @@
-.logo{}
+.logo,
+.logo__title,
+.logo__link{
+    display: block;
+    width: 319px;
+    height: 227px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.logo{
+    left: 50%;
+    top: 15px;
+    margin-left: -160px;
+}
+
+.logo__link{
+    background: image-url("header/logo.png") no-repeat 0 0;
+    text-indent: -999px;
+    overflow: hidden;
+}
