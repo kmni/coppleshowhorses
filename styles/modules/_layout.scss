@@ -14,9 +14,16 @@ body{
     padding: 0;
 }
 
-.wrapper{
-    width: 960px;
-    margin: 0 auto;
+.is-envelope{
+    width: 100%;
+    text-align: center;
+    background-position: center 0;
+    background-repeat: no-repeat;
+}
+
+.is-content{
+    @include cf;
+    width: 1020px;
 }
 
 .is-disable{
