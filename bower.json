@@ -1,0 +1,24 @@
+{
+  "name": "coppleshowhorses",
+  "version": "0.0.1",
+  "authors": [
+    "Tomas Musiol <tomas.musiol@gmail.com>"
+  ],
+  "description": "Custom template",
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "*"
+  }
+}

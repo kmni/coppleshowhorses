@@ -1,0 +1,12 @@
+{
+  "name": "wordpress-custom-template",
+  "version": "0.0.1",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-compass": "~0.6.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-sass": "~0.5.0",
+    "grunt-contrib-watch": "~0.5.2",
+    "gulp-watch": "^0.6.9"
+  }
+}

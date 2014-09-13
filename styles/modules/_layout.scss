@@ -1,0 +1,22 @@
+.is-envelope{
+    width: 100%;
+    text-align: center;
+    background-position: center 0;
+    background-repeat: no-repeat;
+}
+
+.is-content{
+    @include cf;
+    width: 1020px;
+    margin: 0 auto;
+    text-align: left;
+    position: relative;
+}
+
+.is-disable{
+    display: none;
+}
+
+.is-hide{
+    display: none;
+}

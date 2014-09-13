@@ -1,0 +1,11 @@
+%button{
+    display: inline-block;
+    @include border-radius(5px);
+    @include background-clip(padding-box);
+    text-align: center;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+}

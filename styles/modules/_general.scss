@@ -1,0 +1,15 @@
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+html{
+    min-width: 1024px; // ipad issue
+}
+
+body{
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+}
