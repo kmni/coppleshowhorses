@@ -1,16 +1,22 @@
-.is-envelope{
-    width: 100%;
-    text-align: center;
-    background-position: center 0;
-    background-repeat: no-repeat;
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
-.is-content{
-    @include cf;
-    width: 1020px;
+html{
+    min-width: 1024px; // ipad issue
+}
+
+body{
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 960px;
     margin: 0 auto;
-    text-align: left;
-    position: relative;
 }
 
 .is-disable{
