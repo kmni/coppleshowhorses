@@ -21,4 +21,18 @@ if( $(".js-carousel").length > 0 ){
     });
 }
 
+$(".horses__item").hover(
+    function(){
+        $(this).addClass("is-hover");
+    },
+    function(){
+        $(".horses__item").removeClass("is-hover");
+    }
+);
+
+$(".horses__item").click(function(){
+    var thisLink = $(this).find(".horses__item__link").attr("href");
+    window.location.href = thisLink;
+});
+
 });
