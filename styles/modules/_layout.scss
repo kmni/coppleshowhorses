@@ -12,6 +12,7 @@ body{
     font-size: 13px;
     margin: 0;
     padding: 0;
+    font-family: 'Lato', sans-serif;
 }
 
 .is-envelope{
@@ -23,7 +24,7 @@ body{
 
 .is-content{
     @include cf;
-    width: 1020px;
+    width: 980px;
     margin: 0 auto;
     text-align: left;
     position: relative;

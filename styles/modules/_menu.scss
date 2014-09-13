@@ -1,1 +1,53 @@
-.menu{}
+// basic menu
+// ====================================
+
+.menu{
+    @include cf;
+}
+
+.menu__item,
+.menu__link{
+    display: block;
+    float: left;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+// top menu
+// ====================================
+
+.menu--top{
+    .menu__item,
+    .menu__link{
+        height: 43px;
+        line-height: 43px;
+    }
+
+    .menu__item{
+        background: #F4E0BF;
+        border-right: 1px solid #E8D3B6;
+
+        // submenu arrow
+        &.has-submenu{
+            .menu__link{
+                padding-right: 30px;
+                position: relative;
+                &:after{
+                    display: block;
+                    content: "";
+                    width: 10px;
+                    height: 6px;
+                    position: absolute;
+                    top: 20px;
+                    right: 13px;
+                    background: image-url("nav/arrow.png") no-repeat 0 0;
+                }
+            }
+        }
+    }
+
+    .menu__link{
+        padding: 0 20px;
+    }
+}
