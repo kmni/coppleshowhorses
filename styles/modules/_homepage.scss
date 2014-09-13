@@ -1,0 +1,17 @@
+.is-homepage{
+    height: 726px;
+    background: image-url("homepage/bg.png") no-repeat center 0;
+}
+
+.homepage__content{
+    height: 726px;
+    width: 490px;
+    float: left;
+
+    &.is-first{
+        background: rgba(0,0,0,.5);
+    }
+
+    &.is-second{
+    }
+}

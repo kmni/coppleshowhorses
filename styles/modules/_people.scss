@@ -1,0 +1,21 @@
+.people__section{
+    padding: 110px 30px 90px 30px;
+    color: #EDDAC0;
+
+    &.is-first{
+        background: image-url("people/divider.png") no-repeat center bottom;
+    }
+}
+
+.people__title{
+    font-size: 26px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.people__text{
+    font-size: 15px;
+    line-height: 1.2em;
+    font-style: italic;
+}
