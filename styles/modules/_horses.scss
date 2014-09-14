@@ -1,3 +1,6 @@
+// horses list
+// ====================================
+
 .horses{
     padding: 15px;
 }
@@ -88,3 +91,92 @@
         display: block;
     }
 }
+
+// horse detail
+// ====================================
+
+.horse{
+    @include cf;
+    padding-top: 35px;
+    margin-bottom: 10px;
+}
+
+.horse__info{
+    width: 530px;
+    float: right;
+    padding: 10px 40px;
+    color: #EDDAC0;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.horse__title{
+    font-size: 30px;
+}
+
+.horse__subtitle{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.horse__pedigree-link{
+    font-size: 15px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.horse__text{
+    margin-top: 35px;
+    font-size: 15px;
+    background: image-url("horses/divider-detail.png") no-repeat center bottom;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    p{
+        margin-bottom: 20px;
+        line-height: 1.3em;
+    }
+}
+
+.horse__buttons{
+    text-align: center;
+}
+
+.horse__buttons__item{
+    display: inline-block;
+    margin: 0 12px;
+}
+
+.horse__buttons__link{
+    display: block;
+    background-color: #e7d3b5;
+    color: #172721;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 15px 60px;
+    text-decoration: none;
+}
+
+.horse__photo{
+    width: 439px;
+    padding: 3px;
+    background: #E8D3B6;
+    float: left;
+    font-size: 0;
+}
+
+// photogallery at horse detail
+// ====================================
+
+.horse-gallery{
+    @include cf;
+}
+
+.horse-gallery__item{
+    display: inline-block;
+    padding: 2px;
+    background: #E8D3B6;
+    font-size: 0;
+    margin-right: 8px;
+}
+
