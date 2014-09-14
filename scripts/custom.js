@@ -1,5 +1,43 @@
 $(document).ready(function() {
 
+// fancybox
+// ====================================
+
+$(".fancybox").fancybox({
+    'transitionIn'  :   'elastic',
+    'transitionOut' :   'elastic',
+    'speedIn'       :   600,
+    'speedOut'      :   200,
+    'overlayShow'   :   false,
+    'padding'       :   0
+});
+
+$(".fancybox-video").click(function() {
+    $.fancybox({
+        'transitionIn'  :   'elastic',
+        'transitionOut' :   'elastic',
+        'speedIn'       :   600,
+        'speedOut'      :   200,
+        'overlayShow'   :   false,
+        'width'         :   640,
+        'height'        :   385,
+        'href'          :  this.href.replace(new RegExp("watch\\?v=", "i"), 'v/'),
+        'type'          :   'swf',
+        'swf'           :   { 'wmode': 'transparent', 'allowfullscreen': 'true' }
+    });
+    return false;
+});
+
+ $(".fancybox-pedigree").fancybox({
+    'href'   : '#pedigree',
+    'titleShow'  : false,
+    'transitionIn'  : 'elastic',
+    'transitionOut' : 'elastic'
+});
+
+// slider na titulni strance
+// ====================================
+
 if( $(".js-carousel").length > 0 ){
     $('.js-carousel').jcarousel({
         wrap: 'circular'

@@ -20,6 +20,7 @@
   ],
   "dependencies": {
     "jquery": "*",
-    "jcarousel": "~0.3.1"
+    "jcarousel": "~0.3.1",
+    "fancybox": "~2.1.5"
   }
 }
