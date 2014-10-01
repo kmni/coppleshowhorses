@@ -1,0 +1,24 @@
+$bp--s-only:          'only screen' (max-width 480px) !default;
+$bp--s-up:            'only screen' (min-width 481px) !default;
+$bp--m-only:          'only screen' (min-width 481px) (max-width 768px) !default;
+$bp--m-down:          'only screen' (max-width 768px) !default;
+$bp--m-up:            'only screen' (min-width 769px) !default;
+$bp--l-only:          'only screen' (min-width 769px) (max-width 1024px) !default;
+$bp--l-down:          'only screen' (max-width 1024px) !default;
+$bp--l-up:            'only screen' (min-width 1025px) !default;
+$bp--xl-only:         'only screen' (min-width 1025px) (max-width 1440px) !default;
+$bp--xl-down:         'only screen' (max-width 1440px) !default;
+$bp--xl-up:           'only screen' (min-width 1441px) !default;
+
+$bp-retina:           'only screen' (min-resolution 2dppx) !default;
+$bp-retina--s-only:   'only screen' (min-resolution 2dppx) (max-width 480px) !default;
+$bp-retina--s-up:     'only screen' (min-resolution 2dppx) (min-width 481px) !default;
+$bp-retina--m-only:   'only screen' (min-resolution 2dppx) (min-width 481px) (max-width 768px) !default;
+$bp-retina--m-down:   'only screen' (min-resolution 2dppx) (max-width 768px) !default;
+$bp-retina--m-up:     'only screen' (min-resolution 2dppx) (min-width 769px) !default;
+$bp-retina--l-only:   'only screen' (min-resolution 2dppx) (min-width 769px) (max-width 1024px) !default;
+$bp-retina--l-down:   'only screen' (min-resolution 2dppx) (max-width 1024px) !default;
+$bp-retina--l-up:     'only screen' (min-resolution 2dppx) (min-width 1025px) !default;
+$bp-retina--xl-only:  'only screen' (min-resolution 2dppx) (min-width 1025px) (max-width 1440px) !default;
+$bp-retina--xl-down:  'only screen' (min-resolution 2dppx) (max-width 1440px) !default;
+$bp-retina--xl-up:    'only screen' (min-resolution 2dppx) (min-width 1441px) !default;
