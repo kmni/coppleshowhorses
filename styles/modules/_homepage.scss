@@ -6,11 +6,12 @@
 .homepage__content{
     height: 726px;
     width: 490px;
-    float: left;
 
     &.is-first{
+        float: right;
     }
 
     &.is-second{
+        float: left;
     }
 }
