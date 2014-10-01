@@ -2,21 +2,31 @@
 .logo__title,
 .logo__link{
     display: block;
-    width: 319px;
-    height: 227px;
+    width: 160px;
+    height: 114px;
     position: absolute;
     left: 0;
     top: 0;
+
+    @include breakpoint($bp--s-up) {
+        width: 319px;
+        height: 227px;
+    }
 }
 
 .logo{
     left: 50%;
-    top: 10px;
-    margin-left: -160px;
+    top: 30px;
+    margin-left: -80px;
+    @include breakpoint($bp--s-up) {
+        top: 10px;
+        margin-left: -160px;
+    }
 }
 
 .logo__link{
     background: image-url("header/logo.png") no-repeat 0 0;
+    background-size: cover;
     text-indent: -999px;
     overflow: hidden;
 }

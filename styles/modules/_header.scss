@@ -1,5 +1,8 @@
 .header{
-    height: 237px;
+    height: 170px;
     background-image: image-url("header/bg.png");
     overflow: hidden;
+    @include breakpoint($bp--s-up) {
+        height: 237px;
+    }
 }

@@ -1,8 +1,11 @@
 .people__section{
     padding: 30px;
-    width: 50%;
-    float: left;
     color: #EDDAC0;
+
+    @include breakpoint($bp--s-up) {
+        width: 50%;
+        float: left;
+    }
 
     @include breakpoint($bp--l-up) {
         width: 100%;

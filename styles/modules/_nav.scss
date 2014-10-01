@@ -1,4 +1,8 @@
 .nav{
+    display: none;
     height: 50px;
     background: image-url("nav/bg.png") repeat-x 0 0;
+    @include breakpoint($bp--s-up) {
+        display: block;
+    }
 }

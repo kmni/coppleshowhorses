@@ -58,16 +58,30 @@
 // ====================================
 
 .menu--bottom{
-    position: absolute;
-    left: 490px;
-    top: 28px;
+    text-align: center;
+    margin-bottom: 20px;
 
+    @include breakpoint($bp--s-up) {
+       position: absolute;
+        left: 490px;
+        top: 28px;
+        text-align: left;
+        margin-bottom: 0;
+    }
     @include breakpoint($bp--l-up) {
         top: 22px;
     }
 
     .menu__item{
         margin-bottom: 10px;
+        display: inline-block;
+        float: none;
+
+        @include breakpoint($bp--s-up) {
+            display: block;
+            float: left;
+        }
+
         @include breakpoint($bp--l-up) {
             margin-bottom: 0;
         }

@@ -1,8 +1,9 @@
 .is-homepage{
-    height: 726px;
-    background: image-url("single/bg.jpg") no-repeat center 0;
+    min-height: 726px;
+    background: #172820 image-url("single/bg.jpg") no-repeat center 0;
 
     @include breakpoint($bp--l-up) {
+        height: 726px;
         background: image-url("homepage/bg.jpg") no-repeat center 0;
     }
 }
