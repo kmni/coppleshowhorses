@@ -2,7 +2,11 @@
 // ====================================
 
 .horses{
-    padding: 15px;
+    padding: 20px;
+    padding-right: 0;
+    @include breakpoint($bp--l-up) {
+        padding: 15px;
+    }
 }
 
 .horses__title{
@@ -10,7 +14,12 @@
     font-size: 26px;
     font-weight: bold;
     font-style: italic;
-    padding: 10px;
+    padding: 20px;
+    padding-left: 0px;
+
+    @include breakpoint($bp--l-up) {
+        padding: 10px;
+    }
 }
 
 .horses__list{
@@ -27,12 +36,18 @@
 .horses__item{
     width: 231px;
     float: left;
-    margin: 0 8px 10px 0;
+    margin: 0 18px 20px 0;
     position: relative;
     cursor: pointer;
 
+    @include breakpoint($bp--l-up) {
+        margin: 0 8px 10px 0;
+    }
+
     &.is-last{
-        margin-right: 0;
+        @include breakpoint($bp--l-up) {
+            margin-right: 0;
+        }
     }
 }
 
@@ -102,12 +117,17 @@
 }
 
 .horse__info{
-    width: 530px;
-    float: right;
-    padding: 10px 40px;
+    padding: 0 30px 30px 30px;
     color: #EDDAC0;
     font-style: italic;
     font-weight: normal;
+
+    @include breakpoint($bp--l-up) {
+        width: 530px;
+        float: right;
+        padding: 10px 40px;
+    }
+
 }
 
 .horse__title{
@@ -139,6 +159,12 @@
 
 .horse__buttons{
     text-align: center;
+    padding-bottom: 20px;
+    background: image-url("horses/divider-detail.png") no-repeat center bottom;
+    @include breakpoint($bp--l-up) {
+        padding-bottom: 0;
+        background: none;
+    }
 }
 
 .horse__buttons__item{
@@ -159,10 +185,15 @@
 
 .horse__photo{
     width: 439px;
+    margin: 0 auto;
+    margin-bottom: 30px;
     padding: 3px;
     background: #E8D3B6;
-    float: left;
     font-size: 0;
+    @include breakpoint($bp--l-up) {
+        float: left;
+        margin: 0;
+    }
 }
 
 // photogallery at horse detail
@@ -170,6 +201,12 @@
 
 .horse-gallery{
     @include cf;
+    padding: 0 60px;
+    margin-bottom: 30px;
+    @include breakpoint($bp--l-up) {
+        padding: 0;
+        margin: 0;
+    }
 }
 
 .horse-gallery__item{
@@ -178,5 +215,9 @@
     background: #E8D3B6;
     font-size: 0;
     margin-right: 8px;
+    margin-bottom: 10px;
+    @include breakpoint($bp--l-up) {
+        margin-bottom: 0;
+    }
 }
 

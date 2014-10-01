@@ -1,8 +1,12 @@
-.is-single{
-    height: 726px;
-    background: image-url("single/bg.jpg") no-repeat center 0;
+.is-single,
+.single__content{
+    min-height: 726px;
+
+    @include breakpoint($bp--l-up) {
+        height: 726px;
+    }
 }
 
-.single__content{
-    height: 726px;
+.is-single{
+    background: #172820 image-url("single/bg.jpg") no-repeat center 0;
 }
