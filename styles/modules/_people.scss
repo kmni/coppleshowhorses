@@ -1,9 +1,19 @@
 .people__section{
-    padding: 110px 30px 90px 30px;
+    padding: 30px;
+    width: 50%;
+    float: left;
     color: #EDDAC0;
 
+    @include breakpoint($bp--l-up) {
+        width: 100%;
+        float: none;
+        padding: 110px 30px 90px 30px;
+    }
+
     &.is-first{
-        background: image-url("people/divider.png") no-repeat center bottom;
+        @include breakpoint($bp--l-up) {
+            background: image-url("people/divider.png") no-repeat center bottom;
+        }
     }
 }
 

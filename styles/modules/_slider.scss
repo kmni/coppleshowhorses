@@ -3,12 +3,19 @@
 
 .slider-wrapper,
 .slider{
-    width: 439px;
-    height: 439px;
+    width: 344px;
+    height: 344px;
+    @include breakpoint($bp--l-up) {
+        width: 439px;
+        height: 439px;
+    }
 }
 
 .slider-wrapper{
-    margin: 15px 0 10px 25px;
+    margin: 20px;
+    @include breakpoint($bp--l-up) {
+        margin: 15px 0 10px 25px;
+    }
 }
 
 .slider{
@@ -17,11 +24,15 @@
 }
 
 .slider__playlist{
-    height: 439px;
+    height: 344px;
     width: 20000em;
     position: relative;
     list-style: none;
     left: 0;
+
+    @include breakpoint($bp--l-up) {
+        height: 439px;
+    }
 }
 
 .slider__playlist__item{
@@ -53,12 +64,30 @@
 // ====================================
 
 .slider-text{
-    margin: 25px;
+    padding: 30px;
     font-size: 15px;
     font-style: italic;
     color: #EDDAC0;
+
+    @include breakpoint($bp--l-up) {
+        padding: 25px;
+    }
+
     p{
         font-weight: 300px;
         margin-bottom: 20px;
     }
 }
+
+
+.slideshow,
+.slider-text{
+    width: 50%;
+    float: left;
+
+    @include breakpoint($bp--l-up) {
+        width: auto;
+        float: none;
+    }
+}
+

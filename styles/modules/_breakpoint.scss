@@ -3,10 +3,10 @@ $bp--s-up:            'only screen' (min-width 481px) !default;
 $bp--m-only:          'only screen' (min-width 481px) (max-width 768px) !default;
 $bp--m-down:          'only screen' (max-width 768px) !default;
 $bp--m-up:            'only screen' (min-width 769px) !default;
-$bp--l-only:          'only screen' (min-width 769px) (max-width 1024px) !default;
-$bp--l-down:          'only screen' (max-width 1024px) !default;
-$bp--l-up:            'only screen' (min-width 1025px) !default;
-$bp--xl-only:         'only screen' (min-width 1025px) (max-width 1440px) !default;
+$bp--l-only:          'only screen' (min-width 769px) (max-width 1023px) !default;
+$bp--l-down:          'only screen' (max-width 1023px) !default;
+$bp--l-up:            'only screen' (min-width 1024px) !default;
+$bp--xl-only:         'only screen' (min-width 1024px) (max-width 1440px) !default;
 $bp--xl-down:         'only screen' (max-width 1440px) !default;
 $bp--xl-up:           'only screen' (min-width 1441px) !default;
 

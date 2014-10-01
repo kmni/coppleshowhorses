@@ -60,7 +60,18 @@
 .menu--bottom{
     position: absolute;
     left: 490px;
-    top: 22px;
+    top: 28px;
+
+    @include breakpoint($bp--l-up) {
+        top: 22px;
+    }
+
+    .menu__item{
+        margin-bottom: 10px;
+        @include breakpoint($bp--l-up) {
+            margin-bottom: 0;
+        }
+    }
 
     .menu__link{
         padding: 0 10px;

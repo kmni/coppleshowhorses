@@ -1,17 +1,32 @@
 .is-homepage{
     height: 726px;
-    background: image-url("homepage/bg.jpg") no-repeat center 0;
+    background: image-url("single/bg.jpg") no-repeat center 0;
+
+    @include breakpoint($bp--l-up) {
+        background: image-url("homepage/bg.jpg") no-repeat center 0;
+    }
 }
 
 .homepage__content{
-    height: 726px;
-    width: 490px;
+    @include cf;
+    width: 100%;
+    float: none;
+
+    @include breakpoint($bp--l-up) {
+        width: 490px;
+        height: 726px;
+    }
 
     &.is-first{
-        float: right;
+        @include breakpoint($bp--l-up) {
+            padding: 0;
+            float: right;
+        }
     }
 
     &.is-second{
-        float: left;
+        @include breakpoint($bp--l-up) {
+            float: left;
+        }
     }
 }
