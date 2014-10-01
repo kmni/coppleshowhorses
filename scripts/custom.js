@@ -1,5 +1,14 @@
 $(document).ready(function() {
 
+// mobile menu
+// ====================================
+
+$(".mobile_header__handler").click(function(){
+    $(".mobile_menu").toggle();
+    return false;
+});
+
+
 // fancybox
 // ====================================
 

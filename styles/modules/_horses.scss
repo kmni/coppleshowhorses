@@ -4,6 +4,10 @@
 .horses{
     padding: 20px;
     padding-right: 0;
+    padding-left: 0;
+    @include breakpoint($bp--s-up) {
+        padding-left: 20px;
+    }
     @include breakpoint($bp--l-up) {
         padding: 15px;
     }
@@ -16,6 +20,11 @@
     font-style: italic;
     padding: 20px;
     padding-left: 0px;
+    text-align: center;
+
+    @include breakpoint($bp--s-up) {
+        text-align: left;
+    }
 
     @include breakpoint($bp--l-up) {
         padding: 10px;
@@ -24,6 +33,12 @@
 
 .horses__list{
     @include cf;
+    width: 231px;
+    margin: 0 auto;
+    @include breakpoint($bp--s-up) {
+        width: 100%;
+        margin: auto;
+    }
 }
 
 .horses__group{
@@ -36,10 +51,13 @@
 .horses__item{
     width: 231px;
     float: left;
-    margin: 0 18px 20px 0;
+    margin-bottom: 30px;
     position: relative;
     cursor: pointer;
 
+    @include breakpoint($bp--s-up) {
+        margin: 0 18px 20px 0;
+    }
     @include breakpoint($bp--l-up) {
         margin: 0 8px 10px 0;
     }
@@ -168,8 +186,19 @@
 }
 
 .horse__buttons__item{
-    display: inline-block;
+    display: block;
     margin: 0 12px;
+
+    @include breakpoint($bp--s-up) {
+        display: inline-block;
+    }
+
+    &.is-first{
+        margin-bottom: 10px;
+        @include breakpoint($bp--s-up) {
+            margin-bottom: 0;
+        }
+    }
 }
 
 .horse__buttons__link{
@@ -184,15 +213,22 @@
 }
 
 .horse__photo{
-    width: 439px;
+    width: 100%;
     margin: 0 auto;
     margin-bottom: 30px;
     padding: 3px;
     background: #E8D3B6;
     font-size: 0;
+    @include breakpoint($bp--s-up) {
+        width: 439px;
+    }
     @include breakpoint($bp--l-up) {
         float: left;
         margin: 0;
+    }
+
+    img{
+        width: 100%;
     }
 }
 
@@ -201,8 +237,12 @@
 
 .horse-gallery{
     @include cf;
-    padding: 0 60px;
+    text-align: center;
     margin-bottom: 30px;
+    @include breakpoint($bp--s-up) {
+        text-align: left;
+        padding: 0 60px;
+    }
     @include breakpoint($bp--l-up) {
         padding: 0;
         margin: 0;
@@ -214,8 +254,12 @@
     padding: 2px;
     background: #E8D3B6;
     font-size: 0;
-    margin-right: 8px;
+    margin: 0 3px;
     margin-bottom: 10px;
+    @include breakpoint($bp--s-up) {
+        margin-left: 0;
+        margin-right: 8px;
+    }
     @include breakpoint($bp--l-up) {
         margin-bottom: 0;
     }

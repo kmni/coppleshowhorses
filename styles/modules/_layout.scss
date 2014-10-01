@@ -12,6 +12,10 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
+    padding-top: 50px;
+    @include breakpoint($bp--s-up) {
+        padding-top: 0px;
+    }
 }
 
 .is-envelope{
