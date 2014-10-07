@@ -82,4 +82,19 @@ $(".horses__item").click(function(){
     window.location.href = thisLink;
 });
 
+// submenu
+// ====================================
+
+$(".menu__item.has-submenu").hover(
+    function(){
+        //$(this).find(".submenu").addClass("is-visible");
+        $(this).find(".submenu").fadeIn(200);
+    },
+    function(){
+        //$(".submenu").removeClass("is-visible");
+        $(".submenu").fadeOut(200);
+    }
+);
+
+
 });

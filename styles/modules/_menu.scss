@@ -32,6 +32,7 @@
 
         // submenu arrow
         &.has-submenu{
+            position: relative;
             .menu__link{
                 padding-right: 30px;
                 position: relative;
@@ -51,6 +52,39 @@
 
     .menu__link{
         padding: 0 20px;
+    }
+}
+
+// submenu
+// ====================================
+
+.submenu{
+    position: absolute;
+    left: 0px;
+    top: 43px;
+    width: 104px;
+    background-color: #E8D3B6;
+    z-index: 888;
+    display: none;
+
+    &.is-visible{
+        display: block;
+    }
+}
+
+.submenu__item{
+    text-align: center;
+    text-transform: uppercase;
+    color: #7F7364;
+    border-bottom: 1px solid #7F7364;
+    font-size: 14px;
+
+    &.is-last{
+        border-bottom: 0;
+    }
+
+    a{
+        text-decoration: none;
     }
 }
 
