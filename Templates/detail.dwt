@@ -44,11 +44,24 @@
     <div class="nav nav--top is-envelope">
       <div class="is-content">
         <ul class="menu menu--top">
-          <li class="menu__item has-submenu"><a href="../horses.html" class="menu__link">Horses</a></li>
+          <li class="menu__item has-submenu">
+            <a href="../horses.html" class="menu__link">Horses</a>
+            <ul class="submenu">
+                <li class="submenu__item"><a href="mares/">Mares</a></li>
+                <li class="submenu__item"><a href="foals/">Foals</a></li>
+                <li class="submenu__item"><a href="sales/">Sales</a></li>
+            </ul>
+        </li>
           <li class="menu__item"><a href="../about-us.html" class="menu__link">About Us</a></li>
           <li class="menu__item"><a href="../services.html" class="menu__link">Services</a></li>
           <li class="menu__item"><a href="../gallery.html" class="menu__link">Gallery</a></li>
-          <li class="menu__item has-submenu"><a href="../news.html" class="menu__link">News</a></li>
+          <li class="menu__item has-submenu">
+            <a href="../news.html" class="menu__link">News</a>
+            <ul class="submenu">
+                <li class="submenu__item"><a href="">2013</a></li>
+                <li class="submenu__item"><a href="">2014</a></li>
+            </ul>
+        </li>
         </ul>
         <!-- /menu -->
         <ul class="contact">
@@ -61,7 +74,8 @@
     </div>
     <!-- /nav -->
     <!-- TemplateEndEditable --><!-- TemplateBeginEditable name="page" -->
-    <div class="page is-single is-envelope">
+    <div class="page-wrapper is-single is-envelope">
+    <div class="page is-envelope">
       <div class="is-content">
         <div class="horse">
           <div class="horse__info">
@@ -94,6 +108,8 @@
       </div>
     </div>
     <!-- /page -->
+    </div>
+    <!-- /page-wrapper -->
     <!-- TemplateEndEditable -->
     <div class="footer is-envelope">
         <div class="is-content">
