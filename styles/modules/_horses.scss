@@ -69,6 +69,12 @@
     }
 }
 
+.horses__item:nth-child(4n) {
+    @include breakpoint($bp--l-up) {
+        margin-right: 0;
+    }
+ }
+
 .horses__item__picture{
     width: 231px;
     height: 231px;
