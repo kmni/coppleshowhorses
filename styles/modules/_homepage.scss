@@ -1,10 +1,18 @@
 .is-homepage{
     min-height: 726px;
-    background: #172820 image-url("single/bg.jpg") no-repeat center 0;
+}
 
+.page-wrapper.is-homepage{
+    background: #172820 image-url("single/bg3.png") no-repeat center 0;
+    background-attachment: fixed;
+    .page{
+        background: transparent image-url("homepage/bg2.png") repeat-y left 0;
+    }
+}
+
+.page-wrapper.is-homepage .page{
     @include breakpoint($bp--l-up) {
-        height: 726px;
-        background: image-url("homepage/bg.jpg") no-repeat center 0;
+        background-position: center 0;
     }
 }
 
@@ -15,7 +23,7 @@
 
     @include breakpoint($bp--l-up) {
         width: 490px;
-        height: 726px;
+        min-height: 726px;
     }
 
     &.is-first{
