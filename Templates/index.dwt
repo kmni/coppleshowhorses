@@ -5,128 +5,139 @@
         <!-- TemplateBeginEditable name="doctitle" -->
         <title>Copple Show Horses</title>
         <!-- TemplateEndEditable -->
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-        <link rel="shortcut icon" href="/favicon.png" />
+        <link rel="shortcut icon" href="../favicon.ico">
+        <link rel="icon" href="../favicon.ico">
         <meta name="viewport" content="initial-scale = 1, user-scalable = no">
 
         <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="../styles/style.min.css" />
+        <link rel="stylesheet" href="../styles/custom.css" />
         <!-- TemplateBeginEditable name="head" -->
         <!-- TemplateEndEditable -->
     </head>
 
-<body>
+<body class="home">
 
     <!-- ++++++++++++++++++++++++ -->
     <!-- mobile menu -->
     <!-- ++++++++++++++++++++++++ -->
-    <!-- TemplateBeginEditable name="mobile-menu" -->
-    <div class="mobile_header"> <a href="#" class="mobile_header__handler"></a> </div>
+
+    <div class="mobile_header">
+        <a href="#" class="mobile_header__handler"></a>
+    </div>
     <ul class="mobile_menu">
-      <li class="mobile_menu__item"><a data-page="home" href="file:///Macintosh HD/Users/kozleek/Sites/Clients/3lancers/coppleshowhorses" class="mobile_menu__link">home</a></li>
-      <li class="mobile_menu__item"><a data-page="about" href="../horses.html" class="mobile_menu__link">Horses</a></li>
-      <li class="mobile_menu__item"><a data-page="stallions" href="../about-us.html" class="mobile_menu__link">About Us</a></li>
-      <li class="mobile_menu__item"><a data-page="services" href="../services.html" class="mobile_menu__link">Services</a></li>
-      <li class="mobile_menu__item"><a data-page="gallery" href="../gallery.html" class="mobile_menu__link">gallery</a></li>
-      <li class="mobile_menu__item"><a data-page="news" href="../news.html" class="mobile_menu__link">news</a></li>
-      <li class="mobile_menu__item"><a data-page="contact" href="../contact.html" class="mobile_menu__link">contact</a></li>
+        <li class="mobile_menu__item"><a data-page="home" href="../" class="mobile_menu__link">Home</a></li>
+        <li class="mobile_menu__item"><a data-page="sales" href="../sales/" class="mobile_menu__link">Sale Horses</a></li>
+        <li class="mobile_menu__item"><a data-page="show" href="../show/" class="mobile_menu__link">Show Horses</a></li>
+        <li class="mobile_menu__item"><a data-page="about" href="../about/" class="mobile_menu__link">About Us</a></li>
+        <li class="mobile_menu__item"><a data-page="services" href="../services/" class="mobile_menu__link">Services</a></li>
+        <li class="mobile_menu__item"><a data-page="gallery" href="../gallery/" class="mobile_menu__link">Gallery</a></li>
+        <li class="mobile_menu__item"><a data-page="news" href="../news/" class="mobile_menu__link">Latest News</a></li>
+        <li class="mobile_menu__item"><a data-page="media" href="../media/" class="mobile_menu__link">Media</a></li>
+        <li class="mobile_menu__item"><a data-page="contact" href="../contact/" class="mobile_menu__link">Contact</a></li>
     </ul>
-    <!-- TemplateEndEditable -->
+
     <div class="header is-envelope">
         <div class="is-content">
             <div class="logo">
                 <h1 class="logo__title">
-                    <a class="logo__link" href="/">Copple Show Horses</a>
+                    <a class="logo__link" href="../">Copple Show Horses</a>
                 </h1>
             </div>
         </div>
     </div>  <!-- /header -->
 
-<!-- TemplateBeginEditable name="menu" -->
     <div class="nav nav--top is-envelope">
-      <div class="is-content">
-        <ul class="menu menu--top">
-          <li class="menu__item has-submenu">
-            <a href="../horses.html" class="menu__link">Horses</a>
-            <ul class="submenu">
-                <li class="submenu__item"><a href="mares/">Mares</a></li>
-                <li class="submenu__item"><a href="foals/">Foals</a></li>
-                <li class="submenu__item"><a href="sales/">Sales</a></li>
-            </ul>
-        </li>
-          <li class="menu__item"><a href="../about-us.html" class="menu__link">About Us</a></li>
-          <li class="menu__item"><a href="../services.html" class="menu__link">Services</a></li>
-          <li class="menu__item"><a href="../gallery.html" class="menu__link">Gallery</a></li>
-          <li class="menu__item has-submenu">
-            <a href="../news.html" class="menu__link">News</a>
-            <ul class="submenu">
-                <li class="submenu__item"><a href="">2013</a></li>
-                <li class="submenu__item"><a href="">2014</a></li>
-            </ul>
-        </li>
-        </ul>
-        <!-- /menu -->
-        <ul class="contact">
-          <li class="contact__item"><a href="../contact.html" class="contact__link">Contact</a></li>
-          <li class="contact__item is-icon"><a href="" class="contact__link"><img src="../images/icons/facebook.png" /></a></li>
-          <li class="contact__item is-icon"><a href="" class="contact__link"><img src="../images/icons/instagram.png" /></a></li>
-        </ul>
-        <!-- /contact -->
-      </div>
-    </div>
-<!-- TemplateEndEditable --><!-- /nav --><!-- TemplateBeginEditable name="page" -->
-    <div class="page is-homepage is-envelope">
-      <div class="is-content">
-        <!-- ++++++++++++++++++++++++++ -->
-        <!-- right content -->
-        <!-- ++++++++++++++++++++++++++ -->
-        <div class="homepage__content is-first">
-          <div class="people">
-            <div class="people__section is-first">
-              <h2 class="people__title">Ron Copple</h2>
-              <div class="people__text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed egestas magna, sed pulvinar zzmmmvvzzvvzmtnibh. Duis non venenatis elit. Sed tincidunt felis turpis, sit amet laoreet urna sollicitudin non. Vivamus mattis risus at lorem placerat, eget venenatis elit consectetur. Vestibulum non mollis mi, sed viverra leo. Donec lorem magna, iaculis quis cursus sed, tempor vitae turpis.</p>
-              </div>
-            </div>
-            <!-- /people__info, ron -->
-            <div class="people__section">
-              <h2 class="people__title">Yvonne Copple</h2>
-              <div class="people__text">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed egestas magna, sed pulvinar zzmmmvvzzvvzmtnibh. Duis non venenatis elit. Sed tincidunt felis turpis, sit amet laoreet urna sollicitudin non. Vivamus mattis risus at lorem placerat, eget venenatis elit consectetur. Vestibulum non mollis mi, sed viverra leo. Donec lorem magna, iaculis quis cursus sed, tempor vitae turpis.</p>
-              </div>
-            </div>
-            <!-- /people__info, yvonne -->
-          </div>
-          <!-- /people -->
+        <div class="is-content">
+            <ul class="menu menu--top">
+                <li class="menu__item has-submenu">
+                    <a href="#" class="menu__link">Horses</a>
+                    <ul class="submenu">
+                        <a href="../sales/"><li class="submenu__item">Sale Horses</li></a>
+                        <a href="../show/"><li class="submenu__item">Show Horses</li></a>
+                    </ul>
+                </li>
+                <li class="menu__item"><a href="../about/" class="menu__link">About Us</a></li>
+                <li class="menu__item"><a href="../services/" class="menu__link">Services</a></li>
+                <li class="menu__item"><a href="../gallery/" class="menu__link">Gallery</a></li>
+                <li class="menu__item has-submenu">
+                    <a href="#" class="menu__link">News</a>
+                    <ul class="submenu">
+                        <a href="../news/"><li class="submenu__item">Latest News</li></a>
+                        <a href="../media/"><li class="submenu__item">Media</li></a>
+                    </ul>
+                </li>
+            </ul>   <!-- /menu -->
+
+            <ul class="contact">
+                <li class="contact__item"><a href="../contact/" class="contact__link">Contact</a></li>
+                <li class="contact__item is-icon"><a href="https://www.facebook.com/CoppleShowHorsesInc" target="_blank" class="contact__link"><img src="../images/icons/facebook.png" /></a></li>
+                <!--<li class="contact__item is-icon"><a href="" class="contact__link"><img src="../images/icons/instagram.png" /></a></li>-->
+            </ul>   <!-- /contact -->
         </div>
-        <!-- ++++++++++++++++++++++++++ -->
-        <!-- left content -->
-        <!-- ++++++++++++++++++++++++++ -->
-        <div class="homepage__content is-second">
-          <div class="slideshow">
-            <div class="slider-wrapper">
-              <div class="slider js-carousel">
-                <ul class="slider__playlist">
-                  <li class="slider__playlist__item"><img src="../images/slider/image1.jpg" /></li>
-                  <li class="slider__playlist__item"><img src="../images/slider/image2.jpg" /></li>
-                  <li class="slider__playlist__item"><img src="../images/slider/image3.jpg" /></li>
-                  <li class="slider__playlist__item"><img src="../images/slider/image4.jpg" /></li>
-                </ul>
-              </div>
-              <!-- /slider -->
+    </div>  <!-- /nav -->
+
+    <div class="page-wrapper is-homepage is-envelope">
+    <img src="../images/single/bg-ray.png" class="bg-ray">
+    <div class="page is-envelope">
+        <div class="is-content">
+
+            <!-- ++++++++++++++++++++++++++ -->
+            <!-- left content -->
+            <!-- ++++++++++++++++++++++++++ -->
+
+            <div class="homepage__content is-second">
+            <!-- TemplateBeginEditable name="slideshow" -->
+                <div class="slideshow">
+                    <div class="slider-wrapper">
+                        <div class="slider js-carousel">
+                            <ul class="slider__playlist">
+                                <li class="slider__playlist__item"><img src="../images/slider/image1.jpg" /></li>
+                                <li class="slider__playlist__item"><img src="../images/slider/image2.jpg" /></li>
+                                <li class="slider__playlist__item"><img src="../images/slider/image3.jpg" /></li>
+                                <li class="slider__playlist__item"><img src="../images/slider/image4.jpg" /></li>
+                            </ul>
+                        </div>  <!-- /slider -->
+                    </div>  <!-- /slider-wrapper -->
+                    <div class="slider-pager js-carousel-pager"></div>
+                </div>
+            <!-- TemplateEndEditable -->
+
+                <div class="slider-text"><!-- TemplateBeginEditable name="slider-text" -->
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed egestas magna, sed pulvinar nibh. Duis non venenatis elit. Sed tincidunt felis turpis, sit amet laoreet urna sollicitudin non. Vivamus mattis risus at lorem placerat, eget venenatis elit consectetur. Vestibulum non mollis mi, sed viverra leo. Donec lorem magna, iaculis quis cursus sed, tempor vitae turpis.</p>
+                  <p>laoreet urna sollicitudin non. Vivamus mattis risus at lorem placerat, eget venenatis elit consectetur. Vestibulum non mollis mi, sed viverra leo. Donec lorem magna, iaculis quis cursus sed, tempor vitae turpis.</p>
+                  <p>laoreet urna sollicitudin non. Vivamus mattis risus at lorem placerat, eget venenatis elit consectetur. Vestibulum non mollis mi, sed viverra leo. Donec lorem magna, iaculis quis cursus sed, tempor vitae turpis.</p>
+                  <p>laoreet urna sollicitudin non. Vivamus mattis risus at lorem placerat, eget venenatis elit consectetur. Vestibulum non mollis mi, sed viverra leo. Donec lorem magna, iaculis quis cursus sed, tempor vitae turpis.</p>
+                <!-- TemplateEndEditable --></div>
             </div>
-            <!-- /slider-wrapper -->
-            <div class="slider-pager js-carousel-pager"></div>
-          </div>
-          <div class="slider-text">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed egestas magna, sed pulvinar nibh. Duis non venenatis elit. Sed tincidunt felis turpis, sit amet laoreet urna sollicitudin non. Vivamus mattis risus at lorem placerat, eget venenatis elit consectetur. Vestibulum non mollis mi, sed viverra leo. Donec lorem magna, iaculis quis cursus sed, tempor vitae turpis.</p>
-            <p>laoreet urna sollicitudin non. Vivamus mattis risus at lorem placerat, eget venenatis elit consectetur. Vestibulum non mollis mi, sed viverra leo. Donec lorem magna, iaculis quis cursus sed, tempor vitae turpis.</p>
-          </div>
+
+            <!-- ++++++++++++++++++++++++++ -->
+            <!-- right content -->
+            <!-- ++++++++++++++++++++++++++ -->
+
+            <div class="homepage__content is-first">
+                <div class="people"><!-- TemplateBeginEditable name="people-section" -->
+                  <div class="people__section is-first">
+                    <h2 class="people__title">Ron Copple</h2>
+                    <div class="people__text">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed egestas magna, sed pulvinar zzmmmvvzzvvzmtnibh. Duis non venenatis elit. Sed tincidunt felis turpis, sit amet laoreet urna sollicitudin non. Vivamus mattis risus at lorem placerat, eget venenatis elit consectetur. Vestibulum non mollis mi, sed viverra leo. Donec lorem magna, iaculis quis cursus sed, tempor vitae turpis.</p>
+                    </div>
+                  </div>
+                  <!-- /people__info, ron -->
+                  <div class="people__section">
+                    <h2 class="people__title">Yvonne Copple</h2>
+                    <div class="people__text">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed egestas magna, sed pulvinar zzmmmvvzzvvzmtnibh. Duis non venenatis elit. Sed tincidunt felis turpis, sit amet laoreet urna sollicitudin non. Vivamus mattis risus at lorem placerat, eget venenatis elit consectetur. Vestibulum non mollis mi, sed viverra leo. Donec lorem magna, iaculis quis cursus sed, tempor vitae turpis.</p>
+                    </div>
+                  </div>
+                <!-- /people__info, yvonne --><!-- TemplateEndEditable -->
+                </div>  <!-- /people -->
+            </div>
+
         </div>
-      </div>
-    </div>
-    <!-- /page -->
-    <!-- TemplateEndEditable -->
+    </div>  <!-- /page -->
+    </div>  <!-- /page-wrapper -->
+
     <div class="footer is-envelope">
         <div class="is-content">
             <div class="footer__info">
@@ -136,25 +147,43 @@
                 <div class="footer__info__text">
                     <p>Copple Training Stables<br />contact us: (253) 381-3871<br /><a href="mailto:coppleshowhorses@yahoo.com">coppleshowhorses@yahoo.com</a></p>
                 </div>
-            </div>  <!-- /footer__info --><!-- TemplateBeginEditable name="footer-menu" -->
+            </div>  <!-- /footer__info -->
+
             <ul class="menu menu--bottom">
-              <li class="menu__item"><a href="../horses.html" class="menu__link">Horses</a></li>
-              <li class="menu__item"><a href="../about-us.html" class="menu__link">About Us</a></li>
-              <li class="menu__item"><a href="../services.html" class="menu__link">Services</a></li>
-              <li class="menu__item"><a href="../gallery.html" class="menu__link">Gallery</a></li>
-              <li class="menu__item"><a href="../news.html" class="menu__link">News</a></li>
-              <li class="menu__item"><a href="../contact.html" class="menu__link">Contact</a></li>
-            </ul>
-            <!-- /menu -->
-            <!-- TemplateEndEditable --><!-- TemplateBeginEditable name="copyright" -->
-            <p class="footer__copyright">&copy; Designed by <a target="_blank" href="http://www.arabhorse.com">ArabHorse.com</a></p>
-            <!-- TemplateEndEditable --></div>
+                <li class="menu__item"><a href="../sales/" class="menu__link">Sale Horses</a></li>
+                <li class="menu__item"><a href="../show/" class="menu__link">Show Horses</a></li>
+                <li class="menu__item"><a href="../about" class="menu__link">About Us</a></li>
+                <li class="menu__item"><a href="../services/" class="menu__link">Services</a></li>
+                <li class="menu__item"><a href="../gallery" class="menu__link">Gallery</a></li>
+                <li class="menu__item"><a href="../news/" class="menu__link">News</a></li>
+                <li class="menu__item"><a href="../media/" class="menu__link">Media</a></li>
+                <li class="menu__item"><a href="../contact/" class="menu__link">Contact</a></li>
+            </ul>   <!-- /menu -->
+
+        </div>
     </div>  <!-- /footer -->
+
+    <div class="copyright is-envelope">
+        <div class="is-content">
+        <p class="copyright-info">&copy; Designed by <a target="_blank" href="http://www.arabhorse.com">ArabHorse.com</a></p>
+        </div>
+    </div>
 
     <script src="../bower_components/jquery/dist/jquery.min.js"></script>
     <script src="../bower_components/jcarousel/dist/jquery.jcarousel.min.js"></script>
     <script src="../bower_components/fancybox/source/jquery.fancybox.pack.js"></script>
     <script src="../scripts/custom.js"></script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-50805184-27', 'auto');
+      ga('send', 'pageview');
+
+    </script>
 
 </body>
 </html>

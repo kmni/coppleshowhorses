@@ -18,7 +18,7 @@ $(".fancybox").fancybox({
     'speedIn'       :   600,
     'speedOut'      :   200,
     'overlayShow'   :   false,
-    'padding'       :   0
+    'padding'       :   4
 });
 
 $(".fancybox-video").click(function() {
@@ -32,7 +32,8 @@ $(".fancybox-video").click(function() {
         'height'        :   385,
         'href'          :  this.href.replace(new RegExp("watch\\?v=", "i"), 'v/'),
         'type'          :   'swf',
-        'swf'           :   { 'wmode': 'transparent', 'allowfullscreen': 'true' }
+        'swf'           :   { 'wmode': 'transparent', 'allowfullscreen': 'true' },
+        'padding'       :   4
     });
     return false;
 });
@@ -41,7 +42,9 @@ $(".fancybox-video").click(function() {
     'href'   : '#pedigree',
     'titleShow'  : false,
     'transitionIn'  : 'elastic',
-    'transitionOut' : 'elastic'
+    'transitionOut' : 'elastic',
+    'padding'       :   4
+
 });
 
 // slider na titulni strance
@@ -52,7 +55,7 @@ if( $(".js-carousel").length > 0 ){
         wrap: 'circular'
     });
     $('.js-carousel').jcarouselAutoscroll({
-        interval: 5000
+        interval: 4000
     });
     $('.js-carousel-pager')
     .on('jcarouselpagination:active', 'a', function() {
