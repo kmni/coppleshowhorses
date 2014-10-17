@@ -1,0 +1,135 @@
+::selection
+{
+color:#EDDAC0;
+background:#2d4238;
+}
+::-moz-selection
+{
+color:#EDDAC0;
+background:#2d4238;
+}
+img {max-width:100%;}
+
+.header {background-size:cover;background-image:url('../images/header/bg.jpg');}
+.submenu {width:125px;}
+.submenu a {text-decoration:none;}
+.submenu__item:hover {background:#7F7364;color:#F4E0BF;}
+
+.page-wrapper.is-single,.page-wrapper.is-homepage {background:#172820 url('../images/single/bg3.jpg?1412692750') no-repeat center 0;position:relative;background-attachment:fixed;background-size:cover;}
+.page-wrapper {z-index:2;}
+.page {z-index:1;}
+.bg-ray {position:absolute;top:0;right:0;z-index:-1;}
+.people__text, .slider-text p {font-weight:300;}
+.people__text p{margin-bottom:20px;}
+
+.read-more {text-align:right;}
+
+.is-content a:hover {text-decoration:none;}
+.is-content .text p {font-family:'Lato', sans-serif;color:#EDDAC0;font-style:italic;font-size:15px;margin-top:5px;margin-bottom:15px;}
+
+.horses h1 {
+color: #ecd9bf;
+font-size: 26px;
+font-weight: bold;
+font-style: italic;
+padding: 10px;
+background:url('../images/horses/divider.png') no-repeat center bottom;
+margin-bottom:10px;
+}
+
+.horses__title {font-size:22px;}
+
+.horse__text ul {margin-bottom:20px;}
+.horse__text ul li ul li{color:#d3b999;}
+.horse__text ul li ul {margin-bottom:0px;margin-left:15px;}
+
+.horse-gallery__item {height:150px;width:150px;}
+.horse-gallery__item img {max-height:100%;}
+
+
+.text, .gallery {padding:35px 50px 10px 50px;color:#EDDAC0;}
+.text h1, .text h2, .text h3, .gallery h1, .gallery h2, .gallery h3 {font-style:italic;margin-bottom:15px;}
+.text h2, .gallery h2 {font-size:26px;}
+.text h3, .gallery h3 {font-size:18px;}
+
+.text ul {margin:10px;list-style:disc;margin-left:20px;}
+.text ul li {font-family:'Lato', sans-serif;color:#d3b999;font-style:italic;font-size:15px;padding:3px 0;}
+.text img {border: 2px solid #E8D3B6; margin: 5px auto;}
+
+.text .loading img {border-width:0px;}
+
+.half-list li {width:48%;float:left;margin:3px 1%;}
+
+@media only screen and (max-width: 885px) {
+	.half-list li {width:100%;float:none;margin:3px;}
+}
+
+.text .people__section {padding:0px 0px 40px 0px; margin-bottom:40px;width:100%;display:block;}
+.text .divider {background:url('../images/people/divider.png') no-repeat center bottom;}
+
+@media only screen and (min-width: 1024px) {
+	.horse-gallery__item {margin-bottom:10px;}
+}
+
+.pedigree-wrapper {display:none;}
+
+.fancybox-overlay {background:url('../images/fancybox/bg-fancybox.png');}
+.fancybox-skin {background:#F4E0BF;border-radius:0px;}
+.horse-pedigree {
+	width: 800px;
+    background: none repeat scroll 0% 0% #172820;
+    color: #F4E0BF;
+    margin-bottom: 0px;
+    text-align:center;
+    font-style:italic;
+}
+.horse--pedigree strong {color:#7F7364; font-weight:normal;}
+.horse--pedigree table {width: 100%;}
+.horse--pedigree table td {font-size: 14px; vertical-align: middle; border-bottom: 1px solid #172820; padding: 15px 0;}
+.horse--pedigree table td.nobord {border-width:0px;background:none;}
+.horse--pedigree table td[rowspan="8"] {font-size: 18px;}
+
+@media only screen and (max-width: 694px) {
+	.mobile_header {display:block !important;}
+	.nav {display:none;}
+	body {padding-top:50px;}
+	}
+@media only screen and (min-width: 695px) {
+	.mobile_header {display:none;}
+	.mobile_menu {display:none !important;}
+	.nav {display:block;}
+}
+
+.mobile_header__handler {background-size:50%;}
+
+.menu.menu--bottom .menu__item:nth-child(5) {clear:left;}
+
+@media only screen and (max-width: 760px) {
+	.menu.menu--bottom {display:none;}
+}
+@media only screen and (max-width: 500px) {
+.people__section {width:100%;}
+}
+.slider-wrapper, .slider {height:439px;width:439px;max-width:100%;margin:20px auto;}
+
+
+@media only screen and (max-width: 715px) {
+.slideshow, .slider-text {float:none;width:100%;}
+}
+
+
+.footer {background:#EDDAC0;}
+
+@media only screen and (min-width: 1022px) {
+.footer .is-content {width:1022px;max-width:100%;}
+.footer .is-content{background:url(../images/nav/bg-footer-shadow.png);background-position:top right;background-repeat:no-repeat;}
+}
+@media only screen and (min-width: 1025px) {
+.home .footer {background:url(../images/nav/bg-footer-shadow.png), #EDDAC0;background-position:top center;background-repeat:no-repeat;}
+}
+.home .footer .is-content {width:980px;max-width:100%;background:transparent;}
+
+
+.copyright {background:#1C332B;}
+.copyright-info {font-size: 11px;color: #E8D3B6;text-transform: uppercase;padding: 10px;text-align: right;}
+.copyright-info a {text-decoration:none;}
