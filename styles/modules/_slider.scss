@@ -4,6 +4,7 @@
 .slider-wrapper,
 .slider{
     width: 300px;
+    color: #fff;
     height: 300px;
     @include breakpoint($bp--s-up) {
         width: 344px;
@@ -31,17 +32,17 @@
 }
 
 .slider__playlist{
-    height: 300px;
+//    height: 300px;
     width: 20000em;
     position: relative;
     list-style: none;
     left: 0;
 
     @include breakpoint($bp--s-up) {
-        height: 344px;
+//        height: 344px;
     }
     @include breakpoint($bp--l-up) {
-        height: 439px;
+//        height: 439px;
     }
 }
 

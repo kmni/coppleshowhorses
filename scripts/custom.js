@@ -51,7 +51,20 @@ $(".fancybox-video").click(function() {
 // ====================================
 
 if( $(".js-carousel").length > 0 ){
-    $('.js-carousel').jcarousel({
+    $('.js-carousel').on('jcarousel:create jcarousel:reload', function() {
+        var element = $(this),
+            width = element.innerWidth();
+            //height = element.innerHeight();
+
+        // This shows 1 item at a time.
+        // Divide `width` to the number of items you want to display,
+        // eg. `width = width / 3` to display 3 items at a time.
+        //element.css('width', width + 'px');
+        //element.css('height', width + 'px');
+
+        element.jcarousel('items').css('width', width + 'px');
+        //element.jcarousel('items').css('height', width + 'px');
+    }).jcarousel({
         wrap: 'circular'
     });
     $('.js-carousel').jcarouselAutoscroll({
