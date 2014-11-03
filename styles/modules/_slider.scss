@@ -17,9 +17,9 @@
 }
 
 .slider-wrapper{
-    margin: 10px;
+    margin: 10px auto;
     @include breakpoint($bp--s-up) {
-        margin: 20px;
+        margin: 20px auto;
     }
     @include breakpoint($bp--l-up) {
         margin: 15px 0 10px 25px;
